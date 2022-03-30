@@ -1,5 +1,8 @@
 .img-container{
-    padding-top:100px;
+    margin-top:100px;
+}
+.img-wraper-propic{
+    border-right: 1px solid #8080801c;
 }
 #pro-pic{
     height: 400px;

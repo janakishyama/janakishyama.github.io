@@ -81,3 +81,7 @@ footer {
 header {
     border-bottom: #acaeb03b 1px solid;
 }
+#menuitem li{
+    padding-right: 15px;
+    margin-right:10px;
+}
