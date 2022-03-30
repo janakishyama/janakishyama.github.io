@@ -1,0 +1,11 @@
+.img-container{
+    padding-top:100px;
+}
+#pro-pic{
+    height: 400px;
+    border: 1px solid #adb5bd40;
+    box-shadow: 2px 2px 30px 10px #80808059;
+    padding: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
