@@ -21,6 +21,7 @@ a:hover {
     color: #252525;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5em;
+    display: none;
 }
 
 .topbar {
@@ -79,7 +80,12 @@ footer {
 }
 
 header {
-    border-bottom: #acaeb03b 1px solid;
+    padding: 10px 0px;
+    border-bottom: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /*border-bottom: #acaeb03b 1px solid;*/
 }
 #menuitem li{
     padding-right: 15px;
