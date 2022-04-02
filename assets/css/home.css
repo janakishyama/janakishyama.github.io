@@ -1,21 +1,25 @@
+body{
+    height: 1000px;
+}
 .intro-titile{
     padding: 10px 0px;
-    float: right;
+    float: left;
     text-align: left;
-}
-.intro-connector{
-    font-size: 12px;
-    color: #888;
 }
 .thingd_ido{
     font-size: 25px;
 }
-.intro-titile h1{
+.stick_h1{
     padding-top: 20px;
-    color: rgb(102, 123, 142);
+    /*color: rgb(102, 123, 142);*/
+    color: rgb(80, 75, 75);
+    font-family: "Big Caslon FB Black", "Big Caslon FB Black", serif;
 }
 .intro-titile h5{
     color: rgb(97, 103, 109);
+}
+.intro-titile p{
+    color: rgb(80, 75, 75);
 }
 .intro-para{
     max-width: 440px;
@@ -24,10 +28,32 @@
     text-align: justify;
 }
 .intro-info{
-    max-width: 300px;
+    max-width: 450px;
     float: left;
-    padding: 150px 0px;
+    padding: 130px 0px;
+}
+.intro-info h3{
+    color: rgb(80, 75, 75);
 }
 .intro-list{
     list-style-type:none;
+    margin-top: 20px;
+    padding-left: 0rem;
+}
+.intro-list li{
+    padding: 4px 0px;
+    font-size: 18px;
+    color: rgba(65, 51, 51);
+}
+.intro-list .fa-solid, .fa-brands{
+    padding-right: 8px;
+    color: rgb(56, 58, 57);
+}
+.bi-balloon-heart-fill{
+    color: rgb(39, 155, 85);
+    font-size: 30px;
+}
+.intro-info h3:hover > .bi-balloon-heart-fill{
+    color: rgb(255, 53, 53);
+    font-size: 30px;
 }
