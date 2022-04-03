@@ -91,8 +91,7 @@ footer {
 header {
     padding: 10px 0px;
     border-bottom: none;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     border-bottom: none;
 }
