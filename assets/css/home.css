@@ -1,8 +1,12 @@
 body{
     height: 1000px;
+    list-style-type:none;
+}
+ul li{
+    list-style-type:none;
 }
 .intro-titile{
-    padding: 10px 0px;
+    padding-top: 50px;
     float: left;
     text-align: left;
 }
@@ -30,7 +34,7 @@ body{
 .intro-info{
     max-width: 450px;
     float: left;
-    padding: 130px 0px;
+    padding-top: 150px;
 }
 .intro-info h3{
     color: rgb(80, 75, 75);
@@ -57,3 +61,51 @@ body{
     color: rgb(255, 53, 53);
     font-size: 30px;
 }
+
+
+
+/* section 3 -------------------------------------- */
+div.outer{
+    height: 315px;
+    width: 310px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    box-sizing: border-box;
+    box-sizing:border-box;
+  }
+div.outer:before{
+    content:"";
+    background:rgb(80, 75, 75);
+    width:150px;
+    height:150px;
+    position:absolute;
+    bottom:-5px;
+    left:-5px;
+    display:block;
+    z-index: -1;
+  }
+div.outer:after{
+    content:"";
+    background:rgb(80, 75, 75);
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    display:block;
+    z-index: -1;
+  }
+  .myimg{
+      border: 5px solid rgb(255, 255, 255);
+      box-shadow: 2px 2px 5px 5px #d6d6d659;
+  }
+
+  .timeline{
+      padding: 150px 0px;
+      text-align: center;
+  }
+  .tline-left h2{
+      margin-bottom: 100px;
+      color: rgb(80, 75, 75);;
+  }

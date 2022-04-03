@@ -40,3 +40,8 @@
 }
 
 <-----end of  rounded image ------------>
+
+<-- me data small chunk --------->
+The key objective is to use all the industrial, 
+production and biological data for the growth optimization
+of microalgae using machine learning and data mining practices. 
