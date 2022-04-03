@@ -57,7 +57,7 @@ ul li{
     color: rgb(39, 155, 85);
     font-size: 30px;
 }
-.intro-info h3:hover > .bi-balloon-heart-fill{
+.intro-info h4:hover > .bi-balloon-heart-fill{
     color: rgb(255, 53, 53);
     font-size: 30px;
 }
