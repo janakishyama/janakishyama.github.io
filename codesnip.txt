@@ -45,3 +45,17 @@
 The key objective is to use all the industrial, 
 production and biological data for the growth optimization
 of microalgae using machine learning and data mining practices. 
+
+
+<------- code for domain list ------>
+<ul class="intro-list">
+                <li><i class="fa-solid fa-brain"></i> Machine Learning</li>
+                <li><i class="fa-solid fa-database"></i> AI & Data Mining</li>
+                <li><i class="fa-brands fa-creative-commons-sampling"></i> PBR Optimization</li>
+                <li><i class="fa-solid fa-seedling"></i> MicroAlgae Production</li>
+                <li><i class="fa-solid fa-industry"></i> Industrial Automation</li>
+                <li><i class="fa-solid fa-cubes"></i> Product Management</li>
+              </ul>
+
+<-------- bold but not italic --------------------------->
+<h2><strong>BOLD,</strong> but not <strong>ITALIC</strong> </h2>

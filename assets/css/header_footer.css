@@ -95,6 +95,7 @@ header {
     top: 0;
     border-bottom: none;
     width:100%;
+    z-index: 1000;
 }
 .header_change{
     background-color: inherit;
