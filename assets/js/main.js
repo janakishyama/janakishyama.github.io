@@ -47,3 +47,21 @@ window.onscroll = function() {
         nav.classList.remove("header_change");
     }
 }
+
+// ----------------------- change text color --------------------------------
+var tx = document.querySelector(".this");
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+function changeColor(){
+  tx.style.color= getRandomColor();
+}
+
+setInterval(changeColor,1000);

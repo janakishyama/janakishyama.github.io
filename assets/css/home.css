@@ -7,6 +7,7 @@ ul li{
 }
 .about{
     padding: 100px 0px;
+    padding-bottom: 70px;
 }
 .intro-titile{
     padding-top: 100px;
@@ -36,9 +37,17 @@ ul li{
 }
 .intro-info{
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0px;
+    transition: 500ms;
+    /*outline: 1px solid rgb(86, 86, 86)*/
+    color: rgb(80, 75, 75);;
 }
+
 .intro-info h3{
     color: rgb(80, 75, 75);
 }
@@ -60,9 +69,14 @@ ul li{
     color: rgb(39, 155, 85);
     font-size: 30px;
 }
-.intro-info h4:hover > .bi-balloon-heart-fill{
-    color: rgb(255, 53, 53);
+.intro-info h5 .bi-balloon-heart-fill{
+    
     font-size: 30px;
+    transition: 800ms;
+}
+.intro-info:hover > h5 .bi-balloon-heart-fill{
+    color: rgb(255, 53, 53);
+    transition: 800ms;
 }
 
 
@@ -105,8 +119,9 @@ div.outer:after{
   }
 
   .timeline{
-      padding: 100px 0px;
+      padding: 30px 0px;
       text-align: center;
+      padding-bottom: 0px;
   }
   .tline-left{
       margin-top: 100px;
@@ -117,4 +132,48 @@ div.outer:after{
       color: rgb(80, 75, 75);
       font-size: 25px;
       text-align: center;
+  }
+
+
+  /* -------------------- block quote section ------------------------ */
+  .area_box2{
+      margin-top: 65px;
+  }
+  .area_box1{
+      margin-top: 10px;
+  }
+  .card{
+    background-color: #333333;
+    border-radius: 0px;
+  }
+  .card-body{
+    padding: 22px !important;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .qt_para{
+    font-size: 15px;
+  }
+  .list-inline-item:not(:last-child){
+      margin-right: 0px;
+  }
+  .list-inline-item{
+      padding: 37px;
+      border-right: 1px solid whitesmoke;
+
+  }
+  .material-icons{
+      font-size: 40px;
+  }
+  .my_like{
+      margin-bottom: 0px;
+  }
+
+  .side_jobs li::before {
+        content: "\2022";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
   }
