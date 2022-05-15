@@ -81,7 +81,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color:#f0f0f0; /* #f8f9fa*/
 }
 .copyright{
     margin-top: 15px;
