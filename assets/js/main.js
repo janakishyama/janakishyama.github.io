@@ -30,7 +30,7 @@ window.onscroll = function() {
 
 function changeCss () {
     var navElement = document.getElementById("headingname");
-    this.scrollY > 165 ? navElement.style.opacity = 1 : navElement.style.opacity = 0;
+    this.scrollY > 185 ? navElement.style.opacity = 1 : navElement.style.opacity = 0;
   }
   
   window.addEventListener("scroll", changeCss , false);
@@ -41,7 +41,7 @@ function changeCss () {
 window.onscroll = function() {
     console.log(window.pageYOffset);
     var nav = document.getElementById("header");
-    if ( window.pageYOffset > 165 ) {
+    if ( window.pageYOffset > 185 ) {
         nav.classList.add("header_change");
     } else {
         nav.classList.remove("header_change");
