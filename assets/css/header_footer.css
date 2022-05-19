@@ -27,7 +27,7 @@ a:hover {
     
 }
 .stick_h1{
-    font-size: 30px;
+    font-size: 25px;
 }
 .navbar-brand{
     padding-top: 0px;
@@ -47,8 +47,9 @@ a:hover {
     color: #888;
 }
 .topbar-left {
-    margin: 0;
-    float: left
+    padding-left: 10px;
+    float: left;
+    margin-top: 0px;
 }
 
 .topbar-right ul {
@@ -84,8 +85,9 @@ footer {
     background-color:#f0f0f0; /* #f8f9fa*/
 }
 .copyright{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom:0px;
+    color: #6c6c6c;
 }
 
 header {
@@ -104,4 +106,14 @@ header {
 #menuitem li{
     padding-right: 5px;
     margin-right:10px;
+}
+
+
+
+#headingname{
+    font-size: 25px;
+}
+
+.tt_intro{
+    font-size: 22px;
 }
