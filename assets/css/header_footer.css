@@ -85,8 +85,8 @@ footer {
     background-color:#f0f0f0; /* #f8f9fa*/
 }
 .copyright{
-    margin-top: 20px;
-    margin-bottom:0px;
+    margin-top: -50px;
+    margin-bottom: 0px;
     color: #6c6c6c;
 }
 
@@ -107,8 +107,6 @@ header {
     padding-right: 5px;
     margin-right:10px;
 }
-
-
 
 #headingname{
     font-size: 25px;
