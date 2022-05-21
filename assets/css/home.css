@@ -289,3 +289,12 @@ div.outer:after{
     right: 6px;
     bottom: -10px;
 }
+
+
+@media only screen and (max-width:650px) {
+    .drop_msg{
+        background-position: bottom 43px right 0px;
+        background-size: 120px;
+        
+    }
+}
