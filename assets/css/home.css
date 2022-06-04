@@ -293,14 +293,16 @@ div.outer:after{
     z-index: 10000000;
     background-color: #ffffff;
 }
+.mobile-intro{
+    display: none;
+}
+
 
 @media only screen and (max-width:767px) {
-    /*
     .drop_msg{
-        background-position: bottom 43px right 0px;
-        background-size: 120px;
+        background-size: 100px;
         
-    }*/
+    }
     /*
     .intro-titile{
         background-image: url(../img/biking_kc-4-f.svg);
@@ -327,9 +329,31 @@ div.outer:after{
         padding-right: 5px;
         margin-right: 10px;
         text-align: center;
-        background-color: mistyrose;
-        border: 1px solid grey;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(128, 128, 128, 0.338);
         margin-bottom: 2px;
+    }
+    .timeline {
+        margin: 4em auto;
+        margin-left: -20px;
+    }
+    .web-intro{
+        display: none;
+    }
+    .mobile-intro{
+        display: block;
+    }
+    .m1{
+        font-size: 18px;
+        padding: 2px 20px;
+    }
+    .cont_wrap h1 {
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .drop_msg {
+        padding: 30px 0px;
     }
 }
 /*
@@ -341,3 +365,7 @@ div.outer:after{
     border: 1px solid grey;
     margin-bottom: 2px;
 }*/
+
+.sec_timeline{
+    padding: 0px 20px;
+}
