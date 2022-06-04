@@ -215,10 +215,10 @@ div.outer:after{
       margin: 50px 0px;
       padding: 50px 0px;
       background-color: #f0f0f0;
-      background-image: url('../img/cat.svg');
+      background-image: url('../img/science_re_mnnr.svg');
       background-repeat: no-repeat;
-      background-position: bottom 43px left 0px;
-      background-size: 250px;
+      background-position: bottom 45px left 0px;
+      background-size: 180px;
       
   }
   .cont_wrap{
@@ -289,12 +289,55 @@ div.outer:after{
     right: 6px;
     bottom: -10px;
 }
+.header-section{
+    z-index: 10000000;
+    background-color: #ffffff;
+}
 
-
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:767px) {
+    /*
     .drop_msg{
         background-position: bottom 43px right 0px;
         background-size: 120px;
         
+    }*/
+    /*
+    .intro-titile{
+        background-image: url(../img/biking_kc-4-f.svg);
+    background-repeat: no-repeat;
+    background-position: top -25px left 0px;
+    background-size: 250px;
+
+    }*/
+    .about{
+        padding: 0px 20px;
+    }
+    .skills_intro {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .tline-left {
+        margin-top: 10px;
+        padding-top: 50px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+    #menuitem li {
+        padding-right: 5px;
+        margin-right: 10px;
+        text-align: center;
+        background-color: mistyrose;
+        border: 1px solid grey;
+        margin-bottom: 2px;
     }
 }
+/*
+#menuitem li {
+    padding-right: 5px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: mistyrose;
+    border: 1px solid grey;
+    margin-bottom: 2px;
+}*/
